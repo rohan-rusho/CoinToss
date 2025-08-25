@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CoinToss" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="statusBarBackground">@color/status</item> <!-- set visible color -->
+        <item name="android:windowLightStatusBar">true</item> <!-- dark icons for light status bar -->
+    </style>
+
+    <style name="Theme.CoinToss" parent="Base.Theme.CoinToss" />
+</resources>
